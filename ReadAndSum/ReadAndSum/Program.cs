@@ -8,13 +8,27 @@ namespace ReadAndSum
     {
         static void Main(string[] args)
         {
-            int a;
-            int b;
-            int.TryParse(Console.ReadLine(), out a);
-            int.TryParse(Console.ReadLine(), out b);
-            int sum = a + b;
-            Console.WriteLine(a + " + " + b + " = " + sum);
+            //ввод исходных данных
+            int A, B;
+            int.TryParse(Console.ReadLine(), out A);
+            int.TryParse(Console.ReadLine(), out B);
+            //максимальное значение
+            int Max;
+            //если больше A
+            if (A >= B)
+            {
+                Max = A;
+            }
+            //иначе больше B
+            else
+            {
+                Max = B;
+            }
+            //вывод результата
+            Console.WriteLine("Максимальное = " + Max);
+            //завершение программы
             Console.ReadKey();
         }
+            
     }
 }
