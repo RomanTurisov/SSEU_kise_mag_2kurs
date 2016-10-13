@@ -1,0 +1,5 @@
+G:\C#\VisualStudio\ReadAndSum\ReadAndSum\bin\Debug\ReadAndSum.exe
+G:\C#\VisualStudio\ReadAndSum\ReadAndSum\bin\Debug\ReadAndSum.pdb
+G:\C#\VisualStudio\ReadAndSum\ReadAndSum\obj\Debug\ResolveAssemblyReference.cache
+G:\C#\VisualStudio\ReadAndSum\ReadAndSum\obj\Debug\ReadAndSum.exe
+G:\C#\VisualStudio\ReadAndSum\ReadAndSum\obj\Debug\ReadAndSum.pdb
