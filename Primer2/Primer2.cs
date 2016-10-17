@@ -15,17 +15,7 @@ namespace ReadAndSum
                 if (int.TryParse(Console.ReadLine(), out B))
                 {
                     //максимальное значение
-                    int Max;
-                    //если больше A
-                    if (A >= B)
-                    {
-                        Max = A;
-                    }
-                    //инчае больеш B
-                    else
-                    {
-                        Max = B;
-                    };
+                    int Max = (A >= B) ? A : B;
                     //вывод результата
                     Console.WriteLine("Максимальное = " + Max);
                 }
